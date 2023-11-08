@@ -6,7 +6,7 @@
 
 html, body {
   color: white;
-  background-color: #1b1b32;
+  background-color: #060613;
   font-family: Lato, sans-serif;
   margin-top: 40px;
 }
@@ -18,6 +18,8 @@ html, body {
   align-items: center;
 }
 
+  /* Mi logo para las app React */
+   
 .binarycode-logo-contedor {
   width: 100%;
   height: 50px;
