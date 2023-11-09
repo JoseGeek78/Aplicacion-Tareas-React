@@ -10,6 +10,9 @@ function App() {
       className='binarycode-logo'
       alt='Logo Binario' 
       />
+    </div>
+      <div className='tareas-lista-principal'>
+        <h1>Mis Tareas</h1>
       </div>
     </div>
   );
