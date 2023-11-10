@@ -2,6 +2,17 @@ import React from 'react';
 import '../hojas-de-estilo/TareaFormulario.css'
 
 function TareaFormulario(props) {
+
+  const manejarEnvio = e => {
+    const tareaNueva = {
+      id: '34545',
+      texto:
+    }
+  }
+
+
+
+
   return (
     <form className='tarea-formulario'>
       <input
