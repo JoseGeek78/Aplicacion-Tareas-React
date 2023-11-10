@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../hojas-de-estilo/TareaFormulario.css'
 
 function TareaFormulario(props) {
 
-  const manejarEnvio = e => {
+  const [input, setInput] = useState('');
+  
+  const manejarCambio = e => {
+     console.log('Escribiendo...');
+  }
+  
+    const manejarEnvio = e => {
     const tareaNueva = {
       id: '34545',
-      texto:
+      texto: 'Hola'
     }
   }
-
-
-
 
   return (
     <form className='tarea-formulario'>
@@ -20,6 +23,7 @@ function TareaFormulario(props) {
         type='text'
         placeholder='Escribe una Tarea'
         name='texto'
+        onChange={manejarCambio}
       />
       <button className='tarea-boton'>
         Agregar Tarea
