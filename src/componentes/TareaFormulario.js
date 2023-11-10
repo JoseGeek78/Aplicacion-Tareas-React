@@ -6,7 +6,7 @@ function TareaFormulario(props) {
   const [input, setInput] = useState('');
   
   const manejarCambio = e => {
-     console.log('Escribiendo...');
+     setInput(e.target.value);
   }
   
     const manejarEnvio = e => {
