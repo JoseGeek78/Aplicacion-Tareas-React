@@ -10,7 +10,14 @@ function ListaDeTareas() {
     <>
     <TareaFormulario />
     <div className='tareas-lista-contenedor'>
-      LISTA DE TAREAS
+      {
+        tareas.map((tarea) =>
+          <Tarea 
+            texto={tarea.texto}
+            completada={tarea.completada}
+          />
+        )
+      }
     </div>
     </>
   );
